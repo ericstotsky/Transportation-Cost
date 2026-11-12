@@ -1,0 +1,31 @@
+{
+  "name": "Distance to Cost Calculation",
+  "label": "Distance to Formula",
+  "type": "widget",
+  "canConsumeDataAction": true,
+  "version": "1.21.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "exbVersion": "1.21.0",
+  "author": "Eric",
+  "description": "This widget should extract the near me distance and add it to a formula to calculate transportation cost.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "dataActions": [
+    {
+      "name": "Export_Action",
+      "label": "Custom Action One",
+      "uri": "actions/Export_Action",
+      "icon": "assets/icons/action-one.svg"
+    }
+  ],
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
